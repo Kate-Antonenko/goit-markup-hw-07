@@ -35,11 +35,11 @@
   display: flex;
   align-items: center;
 }
-.nav-item:not(:first-child) {
+.nav-list__nav-item:not(:first-child) {
   margin-left: 50px;
 }
 
-.nav-link,
+.nav-list__nav-link,
 .header-contacts {
   display: block;
   padding-bottom: 32px;
@@ -48,7 +48,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.nav-link {
+.nav-list__nav-link {
   color: var(--main-color);
   position: relative;
   transition: color var(--animation);
@@ -59,7 +59,7 @@
   }
 }
 
-.header-contacts {
+.nav-contacts__header-contacts {
   display: flex;
   align-items: center;
   color: var(--description-color);
