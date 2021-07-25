@@ -58,9 +58,11 @@
   fill: currentColor;
   color: var(--description-color);
   transition: background-color var(--animation), fill var(--animation);
-}
-.social-list-link:hover,
-.social-list-link:focus {
+
+  &:hover,
+  &:focus {
   fill: var(--contrast-color);
   background-color: var(--accent-color);
 }
+}
+

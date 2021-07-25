@@ -19,9 +19,10 @@
   margin-top: 30px;
   margin-left: 30px;
   transition: fill var(--animation), border-color var(--animation);
-}
-.clients-link:hover,
-.clients-link:focus {
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
+  }
 }

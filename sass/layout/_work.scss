@@ -1,16 +1,15 @@
 .work-item {
   display: flex;
-  /* justify-content: space-between;
-  padding-bottom: 94px; */
 }
 .work-list {
-  /* width: 370px; */
   flex-basis: calc((100% - 2 * 30px) / 3);
   position: relative;
+
+  &:not(:first-child) {
+    margin-left: 30px;
+  }
 }
-.work-list:not(:first-child) {
-  margin-left: 30px;
-}
+
 .label {
   position: absolute;
   display: flex;

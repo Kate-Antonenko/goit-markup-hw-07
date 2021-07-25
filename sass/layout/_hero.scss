@@ -37,8 +37,9 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   transition: background var(--animation), box-shadow var(--animation);
-}
-.modal-btn:hover,
-.modal-btn:focus {
-  background: var(--button-focus-color);
+
+  &:hover,
+  &:focus {
+    background: var(--button-focus-color);
+  }
 }
