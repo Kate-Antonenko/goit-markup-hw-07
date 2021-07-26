@@ -353,7 +353,7 @@ body {
 }
 
 .nav-list__nav-link,
-.header-contacts {
+.nav-contacts__header-contacts {
   display: block;
   padding-bottom: 32px;
   padding-top: 32px;
@@ -755,6 +755,11 @@ body {
 
 .footer-button:focus, .footer-button:hover {
   background: var(--button-focus-color);
+}
+
+.footer-icon {
+  fill: #ffffff;
+  margin-left: 10px;
 }
 
 .menu-button {
